@@ -223,7 +223,7 @@ def menu
         when "1" then run_game
         when "2" then show_rules
         when "3" then load_saved_game
-        when "4" then return
+        when "4" then exit
         else 
             puts "\n    Write something I can understand, bro"
             wait_confirmation
